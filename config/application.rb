@@ -16,6 +16,8 @@ module BasicApi
       end
     end
 
+    config.timezone = 'Pacific Time (US & Canada)'
+
     # Rails 5
 
     config.middleware.insert_before 0, Rack::Cors do
